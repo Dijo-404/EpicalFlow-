@@ -1,0 +1,43 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Server (Node.js)
+server/node_modules/
+server/npm-debug.log
+server/yarn-error.log
+server/dist/
+server/build/
+server/coverage/
+server/.nyc_output/
+
+# ML Service (Python)
+ml/venv/
+ml/env/
+ml/.venv/
+ml/__pycache__/
+ml/*.py[cod]
+ml/*$py.class
+ml/.pytest_cache/
+ml/.coverage
+ml/htmlcov/
+ml/dist/
+ml/build/
+ml/*.egg-info/
+ml/.mypy_cache/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+.dockerignore
